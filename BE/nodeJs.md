@@ -21,7 +21,7 @@ Node.js 관련 개념
 ## 3. 이벤트 루프
 이벤트가 대기하는 메인 루프! 비동기 콜백을 처리한다. Node.js 기반으로 만들어진 서버가 가동되면 변수들을 초기화하고 함수를 선언하고 이벤트가 일어날 떄까지 기다린다. 이벤트가 감지되었을 시 callback 함수를 호출한다. 
 <!-- ![node.js_flow](Node.js_Architecture_workflow.png) -->
-<p align="center"><img src="Node.js_Architecture_workflow.png" width="75%" title="node.js_workflow" alt="node.js_workflow"></img></p>
+<p align="center"><img src="Node.js_Architecture_Workflow.png" width="75%" title="node.js_workflow" alt="node.js_workflow"></img></p>
 
 * 클라이언트는 웹 응용 프로그램과 상호 작용하기 위해 웹 서버에 요청을 보낸다. 요청은 non-blocking or blocking
 * Node.js는 들어오는 요청을 검색하여 이벤트 큐에 추가한다.
